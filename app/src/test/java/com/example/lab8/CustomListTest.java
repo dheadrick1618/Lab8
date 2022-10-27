@@ -43,7 +43,9 @@ public class CustomListTest {
         assertTrue(list.hasCity(testCity));
     }
 
-
-
+//    @Test
+//    public void deleteCityTest(){
+//
+//    }
 
 }
