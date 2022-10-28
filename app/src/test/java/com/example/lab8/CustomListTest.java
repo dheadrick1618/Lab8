@@ -52,7 +52,7 @@ public class CustomListTest {
         list.addCity(testCity);
 
         list.deleteCity(testCity);
-        assertFalse(list.hasCity(testCity));
+        assertEquals(list.getCount(), 0);
     }
 
 }
